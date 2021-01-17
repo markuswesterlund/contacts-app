@@ -1,0 +1,44 @@
+[
+  {
+    "first_name": "Marion",
+    "last_name": "Ruiz",
+    "full_name": "Marion Ruiz",
+    "email": "marion.ruiz@example.com",
+    "number": "(110)-847-5594"
+  },
+  {
+    "first_name": "Lesa",
+    "last_name": "Welch",
+    "full_name": "Lesa Welch",
+    "email": "lesa.welch@example.com",
+    "number": "(000)-066-9620"
+  },
+  {
+    "first_name": "Marvin",
+    "last_name": "Miles",
+    "full_name": "Marvin Miles",
+    "email": "marvin.miles@example.com",
+    "number": "(706)-459-4146"
+  },
+  {
+    "first_name": "Raymond",
+    "last_name": "Graham",
+    "full_name": "Raymond Graham",
+    "email": "raymond.graham@example.com",
+    "number": "(354)-594-0189"
+  },
+  {
+    "first_name": "Anders",
+    "last_name": "Lundgren",
+    "full_name": "Anders Lundgren",
+    "email": "anders.lundgren@example.com",
+    "number": "(885)-777-6104"
+  },
+  {
+    "first_name": "Albin",
+    "last_name": "Andersson",
+    "full_name": "Albin Andersson",
+    "email": "albin.andersson@example.com",
+    "number": "(621)-514-8787"
+  }
+]
