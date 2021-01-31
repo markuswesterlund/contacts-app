@@ -1,7 +1,7 @@
 import json
 
 from app.models import Contact
-from app.models.json_encoder import ContactAwareJSONEncoder
+from app.json_encoder import ContactAwareJSONEncoder
 
 
 class ContactsManager:

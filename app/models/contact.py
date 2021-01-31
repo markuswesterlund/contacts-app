@@ -18,7 +18,7 @@ class Contact:
         return f"<Contact name={self.name} email={self.email}>"
 
     def get_display_value(self):
-        return f"{self.name} / {self.email}"
+        return f"{self.name} / {self.email} / {self.number}"
 
     def has_email(self):
         return self.email is not None and len(self.email) > 0
