@@ -28,5 +28,10 @@
     "name": "Albin Andersson",
     "email": "albin.andersson@example.com",
     "number": "(621)-514-8787"
+  },
+  {
+    "name": "Markus Westerlund",
+    "email": "westerlund@hotmail.se",
+    "number": "0730468315"
   }
 ]

@@ -1,13 +1,14 @@
 import sys
-from .contacts_manager import ContactsManager
+
+from .contacts_cli import ContactsCLI
 
 menu = """
 What do you want to do?
-1 - Print list of contacts
-2 - Add new contact
-3 - Delete contact
+l - Print list of contacts
+a - Add new contact
+d - Delete contact
+e - Edit contact
 s - Search for a contact
-e - Edit a contact
 q - Exit from application
 """
 
@@ -19,29 +20,25 @@ def main():
         filename = sys.argv[1]
 
     print("Using database:", filename)
-    manager = ContactsManager(filename)
+    manager = ContactsCLI(filename)
 
     while True:
         print(menu)
         print(f"Total contacts: {len(manager)}")
         op = input("Please select menu option: ")
 
-        if op == "1":
+        if op == "l":
             manager.print_list()
-        elif op == "2":
+        elif op == "a":
             manager.add_contact()
-        elif op == "3":
+        elif op == "d":
             manager.delete_contact()
-        elif op == "s":
-            manager.search_contacts()
         elif op == "e":
             manager.edit_contact()
+        elif op == "s":
+            manager.search_contacts()
         elif op == "q":
             print("Goodbye!")
             return 0
         else:
             print("Unknown operation")
-
-
-if __name__ == '__main__':
-    main()

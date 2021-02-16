@@ -1,8 +1,8 @@
 from unittest import TestCase
 import json
 
-from app.json_encoder import ContactAwareJSONEncoder
-from app.models import Contact
+from app import ContactAwareJSONEncoder
+from app import Contact
 
 
 class TestContactAwareJSONEncoder(TestCase):
